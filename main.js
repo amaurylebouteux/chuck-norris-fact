@@ -1,7 +1,7 @@
 function fetchChuckJokeJSON() {
     // Feel free to download this HTML and edit it, to use another Pokemon ID
-    const jokeId = "";
-    const url = `https://api.chucknorris.io/jokes/random/${jokeId}`;
+    //const jokeId = "";
+    const url = `https://api.chucknorris.io/jokes/random/`;
     
     axios.get(url)
       .then(function(response) {
